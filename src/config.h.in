@@ -1,0 +1,10 @@
+/* src/config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Define if your mktime works correctly outside 1902-2037. */
+#undef HAVE_WORKING_64BIT_MKTIME
+
+/* Define if mktime sets errno. */
+#undef MKTIME_SETS_ERRNO
+
+/* Define to use internal time-zone code */
+#undef USE_INTERNAL_MKTIME

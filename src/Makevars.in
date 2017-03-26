@@ -2,5 +2,6 @@
 #
 # Copyright 2017 Dirk Eddelbuettel, Joshua Ulrich
 
-PKG_CPPFLAGS=-I../../inst/include
+PKG_CXXFLAGS=-I../../inst/include @HAVE_WORKING_64BIT_MKTIME@
 PKG_CFLAGS=
+

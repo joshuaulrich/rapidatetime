@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#rm -rf config.log config.status autom4ate.cache src/Makevars
+
+#find . -name \*~ | xargs rm -f
+
+exit 0
